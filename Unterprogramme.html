@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title> JavaScript lernen </title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<button onclick="Addieren()">Addieren</button>
+	<button onclick="Subtrahieren()">Subtrahieren</button>
+	<button onclick="Multipluzieren()">Multipluzieren</button>
+	<button onclick="Dividieren()">Dividieren</button>
+<script>
+"use strict";
+/* ANFANG des Programmierbereichs */
+
+function Addieren(){
+	c = (a + b);
+	console.log("es kommt " + c + " raus.");
+	alert("es kommt " + c + " raus.");
+};
+function Subtrahieren(){
+	c = (a - b);
+	console.log("es kommt " + c + " raus.");
+	alert("es kommt " + c + " raus.");
+};
+function Multipluzieren(){
+	c = (a * b);
+	console.log("es kommt " + c + " raus.");
+	alert("es kommt " + c + " raus.");
+};
+function Dividieren(){
+	c = (a / b);
+	console.log("es kommt " + c + " raus.");
+	alert("es kommt " + c + " raus.");
+};
+
+let a, b, c;
+
+a = Number(prompt("gib die erste zahl ein")); 
+b = Number(prompt("gib die zweite zahl ein")); 
+
+alert("Deine Eingabe war: \n" + "a ist:" + a + "\n" + "b ist:" + b); 
+
+/* Öffne die Konsole des Browsers mit (meistens) <F12>, um die folgende Ausgabe sehen zu können. */
+console.log("Deine Eingabe war: \n" + "a ist:" + a + "\n" + "b ist:" + b);
+
+
+
+
+/* ENDE des Programmierbereichs */
+</script>
+<noscript>Dieser Browser führt kein JavaScript aus!</noscript>
+</body>
+</html>
